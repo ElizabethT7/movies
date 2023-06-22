@@ -48,10 +48,6 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 nav {
   padding: 0 1rem;
@@ -70,6 +66,12 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
+}
+
+.btn_search {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
 }
 
 @media (prefers-color-scheme: light) {
