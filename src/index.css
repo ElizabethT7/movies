@@ -53,6 +53,10 @@ nav {
   padding: 0 1rem;
 }
 
+label:not(:last-child) {
+  margin-right: 1rem;
+}
+
 #root {
   margin: 0 auto;
 }
