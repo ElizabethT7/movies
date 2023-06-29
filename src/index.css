@@ -72,6 +72,10 @@ label:not(:last-child) {
   gap: 1rem;
 }
 
+.card-image {
+  height: 388px;
+}
+
 .btn_search {
   position: absolute;
   top: 0;

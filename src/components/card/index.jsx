@@ -19,9 +19,9 @@ function Movie (props) {
           
         </div>
         <div className="card-content">
-          <span className="card-title activator grey-text text-darken-4">
+          <div className="card-title activator grey-text text-darken-4">
             {title} 
-          </span>
+          </div>
           <p>{year} <span className="right">{type}</span></p>
         </div>
       </div>
